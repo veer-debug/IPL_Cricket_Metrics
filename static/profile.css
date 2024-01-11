@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b8c6b2;
+    color: #333;
+    max-width: 100%; /* Set the max-width for the entire content */
+    margin: 10; /* Center the content horizontally */
+}
+
+header {
+    background-color: #681515;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c4c995;
+    background-color: #3450db;
+    padding: 20px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover {
+    background-color: #9cb929;
+}
+
+section {
+    background-color: #b8c6b2;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+.photo-slider {
+    display: flex;
+    overflow: hidden;
+    width: max-content;
+    animation: slide 40s linear infinite;
+}
+
+.photo-slider img {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.photo-slider:hover {
+    animation: stop;
+     /* Adjust the duration to control the speed */
+}
+
+
+
+h2, h3 {
+    color: #3498db;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.winner-list {
+    margin-top: 20px;
+}
+
+.winner-list h3 {
+    color: #3498db;
+}
+
+.winner-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.winner-list li {
+    margin-bottom: 10px;
+}
+
+.team-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.team-section img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #681515;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-link {
+    margin: 0 10px;
+}
+
+.social-link img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.social-link img:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
