@@ -15,25 +15,15 @@ header {
     padding: 20px;
 }
 
-nav {
-    text-align: center;
-    margin: 20px 0;
+.container-fluid { 
+    background-color:#681515
 }
-
-nav a {
-    text-decoration: none;
-    color: #c4c995;
-    background-color: #3450db;
-    padding: 20px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    display: inline-block;
-    transition: background-color 0.3s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.navbar-nav a {
+    color: blue;
 }
-
-nav a:hover {
-    background-color: #9cb929;
+.nav1{
+    color:white;   
+    padding-left:2%;
 }
 
 section {
