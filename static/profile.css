@@ -17,6 +17,7 @@ header {
 
 .container-fluid { 
     background-color:#681515
+
    
 }
 .navbar-nav a {
@@ -28,7 +29,14 @@ header {
     color:white;   
     padding-left:2%;
 }
-
+.img_link{
+       width: 250px;
+        height: 200px;
+        padding-left: 100px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
 .algo img{
         width: 350px;
         height: 250px;
@@ -36,6 +44,10 @@ header {
         padding-right: 15px;
         padding-top: 10px;
         padding-bottom: 10px;
+}
+.nav1{
+    color:white;   
+    padding-left:2%;
 }
 
 section {
