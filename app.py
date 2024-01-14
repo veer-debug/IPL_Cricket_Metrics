@@ -74,14 +74,14 @@ def team_vs_team():
 
 
 @app.route('/team')
-def team_vs_team():
+def team():
     return render_template('teaam.html')
 @app.route('/batsman')
-def team_vs_team():
-    return render_template('basmen.html')
+def batsman():
+    return render_template('batsmen.html')
     
 @app.route('/bolwer')
-def team_vs_team():
+def bolwer():
     return render_template('boller.html')
 
 app.run(debug=True,port=7500)
