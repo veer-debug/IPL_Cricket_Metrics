@@ -45,6 +45,12 @@ body {
         transform: translateY(0);
     }
 }
+.img{
+    width: auto;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+}
 
 .login-container h2 {
     margin-bottom: 20px;

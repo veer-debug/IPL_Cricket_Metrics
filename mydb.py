@@ -3,7 +3,7 @@ import json
 
 class Database:
     def insert(self,name,email,password):
-        with open(r'C:\Users\theve\OneDrive\Desktop\DATA-S\IPL_GUI_API\users.json','r') as rf:
+        with open(r'C:\Users\theve\OneDrive\Desktop\git_projects\IPL_Cricket_Metrics\users.json','r') as rf:
             user=json.load(rf)
             
             if email in user:
@@ -11,13 +11,13 @@ class Database:
             else:
                 user[email]=[name,password]
                 
-        with open(r'C:\Users\theve\OneDrive\Desktop\DATA-S\IPL_GUI_API\users.json','w')as wf:
+        with open(r'C:\Users\theve\OneDrive\Desktop\git_projects\IPL_Cricket_Metrics\users.json','w')as wf:
             json.dump(user,wf,indent=4)
             return 1
         
         
     def search(self,email,password):
-        with open(r'C:\Users\theve\OneDrive\Desktop\DATA-S\IPL_GUI_API\users.json','r') as rf:
+        with open(r'C:\Users\theve\OneDrive\Desktop\git_projects\IPL_Cricket_Metrics\users.json','r') as rf:
             user=json.load(rf)
             
             if email in user:
