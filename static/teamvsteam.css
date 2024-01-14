@@ -80,6 +80,9 @@ button:hover {
     background-color: #45a049;
 
 }
+.form-group input{
+    font-size:50px;
+}
 
 footer {
     background-color: #681515;
